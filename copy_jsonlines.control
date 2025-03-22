@@ -1,0 +1,6 @@
+# copy_jsonlines extension
+comment = 'JSON Lines text format support for COPY command'
+default_version = '1.0'
+module_pathname = '$libdir/copy_jsonlines'
+relocatable = true
+trusted = true

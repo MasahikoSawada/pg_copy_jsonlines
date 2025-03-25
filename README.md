@@ -13,9 +13,9 @@ PostgreSQL's COPY command traditionally supports three built-in formats: text, C
 `pg_copy_jsonlines` can be built in the same way as other extensions:
 
 ```bash
-gcd pg_copy_jsonlines
-make USE_PGXS=1
-make install USE_PGXS=1
+$ cd pg_copy_jsonlines
+$ make USE_PGXS=1
+$ make install USE_PGXS=1
 ```
 
 ```sql
